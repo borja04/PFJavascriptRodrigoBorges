@@ -41,27 +41,22 @@
                         </ul>
                     </li>
                 </ul>
-                <!-- Botón del carrito -->
-                <div id="cart-container">
-                    
-                </div>
-               
             </div>
         </div>
     </nav>
+    <h1 class="display-3 text-center">Carrito de compras</h1>
     <!-- Header-->
-    <header class="bg-dark py-5">
-        <div class="container px-4 px-lg-5 my-5">
-            <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">Hay algo que nos une</h1>
-                <p class="lead fw-normal text-white-50 mb-0">Senti el sabor de un verdadero Café</p>
+    <div id="cardContainer" class="container-fluid cardsItemsCarrito">
+        <section class="py-5">
+            <div id="listaCarrito" class="container">
             </div>
-        </div>
-    </header>
-    <!-- Section-->
-    <section class="py-5">
-        <div id="listaProductos" class="container">
-        </div>
+        </section>
+    </div>
+    <h2 id="totalPagar" class="text-center"><span></span></h2>
+    <div class="container-fluid">
+        <button  id= "btnFinalizarCompra"type="button" class="m-2 btn btn-outline-success btn-lg">Finalizar Compra</button>
+        <button id="btnVaciarCarrito" type="button" class="m-2 btn btn-outline-danger btn-lg">Vaciar Carrito</button>
+    </div>
     </section>
     <!-- Footer-->
     <footer class="py-5 bg-dark">
@@ -74,8 +69,7 @@
     <script src="https://kit.fontawesome.com/483dda2f06.js" crossorigin="anonymous"></script>
     <!--  JS-->
     <script src="js/producto.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/carrito.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 </body>

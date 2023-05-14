@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "nombre": "Capuccino",
+        "precio": 40,
+        "cantidad": 1,
+        "ruta":"img/americano.jpg" 
+    },
+    {
+        "id": 2,
+        "nombre":"Italiano" ,
+        "precio": 18,
+        "cantidad": 1,
+        "ruta":"img/capuccinoItaliano.webp" 
+    },
+    {
+        "id": 3,
+        "nombre": "Americano",
+        "precio": 25,
+        "cantidad": 1,
+        "ruta":"img/americano2.webp"
+    },
+    {
+        "id": 4,
+        "nombre":"Moka" ,
+        "precio": 40,
+        "cantidad":1 ,
+        "ruta": "img/moka.jpg"
+    },
+    {
+        "id": 5,
+        "nombre":"Caramel" ,
+        "precio": 40,
+        "cantidad":1 ,
+        "ruta": "img/caramel.webp"
+    },
+    {
+        "id": 6,
+        "nombre":"Frappuccino" ,
+        "precio": 40,
+        "cantidad":1 ,
+        "ruta": "img/frappe.webp"
+    }
+]
+

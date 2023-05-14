@@ -85,6 +85,31 @@
   box-sizing: border-box;
 }
 
+.container-fluid {
+  display: flex;
+    justify-content: center;	
+}
+
+.cart-container {
+  position: relative;
+}
+
+.fa-shopping-cart {
+  font-size: 24px;
+  color: #000;
+}
+
+#cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
