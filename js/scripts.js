@@ -52,7 +52,7 @@ function actualizarElementosCarrito()
 {
     cantItems.innerHTML = ``;
     let nroProducto = document.createElement('div');
-    nroProducto.innerHTML = `<a href="carrito.html">
+    nroProducto.innerHTML = `<a href="./carrito.html">
     <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #303236;"><span style="color:#c91e1e;">${carrito.length}</span></i>
     </a>`;
     cantItems.appendChild(nroProducto);
